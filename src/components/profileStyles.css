@@ -1,0 +1,22 @@
+.my-profile img{
+ position: absolute;
+ float: left;
+ width: 450px;
+ border-radius: 5px;
+ margin-left: 50px;
+ margin-top: 50px;
+animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.my-profile p{
+    margin-top: 150px;
+    width: 100vh;
+    float: right;
+    font-size: 25px;
+}
+

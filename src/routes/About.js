@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Profile from '../components/Profile';
+
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Navbar/>
+      <Profile/>
+    </div>
   )
 }
 
-export default About
+export default About;

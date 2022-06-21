@@ -8,12 +8,11 @@ const Heroimg = () => {
     <div className="hero">
         <div className='mask'>
             <img className='intro-img' src={Introimg}
-             alt="Introimg"s/>
+             alt="Introimg"/>
         </div>
         <div className='content'>
             <h1>Hi. I'm Caleb</h1>
-            <p>A frontend developer, enthusiastic about building <br/> websites that are responsive and easy to use.</p>
-
+            <h2> A Frontend developer</h2>
         </div>
 
     </div>
