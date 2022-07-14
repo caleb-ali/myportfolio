@@ -1,11 +1,13 @@
-.my-profile img{
- position: absolute;
+
+
+.my-profile img {
+ position: relative;
  float: left;
  width: 450px;
  border-radius: 5px;
  margin-left: 50px;
  margin-top: 50px;
-animation: fadeIn 5s;
+animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
@@ -13,10 +15,20 @@ animation: fadeIn 5s;
     100% {opacity: 1;}
 }
 
+.my-profile h1{
+    width: 100vh;
+    margin-top: 100px;
+    float: right;
+    font-size: 35px;
+    color: #73777B;
+    margin-right: -170px;
+}
+
 .my-profile p{
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100vh;
     float: right;
     font-size: 25px;
+    color: #73777B;
 }
 
