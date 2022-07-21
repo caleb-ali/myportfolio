@@ -36,7 +36,6 @@ const Contactpage = () => {
                         </h2>
                         <div className='c-info'>
                             <div className='c-info-item'>
-                            
                                 <a href="https://twitter.com/_realkally" target="_blank" rel="noreferrer">  <BsTwitter/>  </a>
                                 <a href="https://www.linkedin.com/in/caleb-ali-94305b14b/" target="_blank" rel="noreferrer">   <FaLinkedin/> </a>
                                 <a href="https://github.com/caleb-ali" target="_blank" rel="noreferrer">  <FaGithub/> </a>
