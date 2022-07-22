@@ -1,0 +1,5 @@
+.pl{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
