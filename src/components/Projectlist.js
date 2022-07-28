@@ -19,6 +19,9 @@ const Projectlist = () => {
         <Projectcard />
         <Projectcard />
         <Projectcard />
+        <Projectcard />
+        <Projectcard />
+        <Projectcard />
       </div>
     </div>
   )
