@@ -4,7 +4,9 @@ import "./Projectcard.css";
 const Projectcard = () => {
     return (
         <div className="p">
-            Projectcard
+            <a href="">
+                <img src="" alt="" className="p-img"/>
+            </a>
         </div>
     )
 }

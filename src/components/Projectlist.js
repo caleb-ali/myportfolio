@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projectlist.css";
 import Projectcard from "./Projectcard";
+import { Projectcards } from "./Data";
 
 
 
@@ -16,15 +17,11 @@ const Projectlist = () => {
         Here are a list of projects i have worked on in the past.
       </h3>
       <div className="pl-list">
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
+        {Projectcards.map((item)=>(<Projectcard/>))}
+    
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projectlist
+export default Projectlist;
