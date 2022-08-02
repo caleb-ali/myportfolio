@@ -5,7 +5,7 @@ export const Projectcards  = [
 
     {
         id: 1,
-        img: { img1 },
+        img: img1 ,
         title: "test",
         technology: "react js",
         description: "practice website",
@@ -13,7 +13,7 @@ export const Projectcards  = [
 
     {
         id: 2,
-        img: { img1 },
+        img:  img1 ,
         title: "test",
         technology: "react js",
         description: "practice website",
@@ -22,7 +22,7 @@ export const Projectcards  = [
 
     {
         id: 3,
-        img: { img1 },
+        img: img1 ,
         title: "test",
         technology: "react js",
         description: "practice website",

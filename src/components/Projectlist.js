@@ -17,7 +17,9 @@ const Projectlist = () => {
         Here are a list of projects i have worked on in the past.
       </h3>
       <div className="pl-list">
-        {Projectcards.map((item)=>(<Projectcard/>))}
+        {Projectcards.map((item)=>(
+        <Projectcard key={item.id} img={item.img} link={item.link}/>
+        ))}
     
       </div>
     </div>
