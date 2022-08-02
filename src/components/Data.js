@@ -26,5 +26,6 @@ export const Projectcards  = [
         title: "test",
         technology: "react js",
         description: "practice website",
-    }
+    },
+
 ];
