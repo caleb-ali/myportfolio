@@ -1,12 +1,18 @@
 .p{
+
     width: 30%;
-    height: 40vh;
+    height: 30vh;
     margin: 20px 10px;
     border: 2px solid black;
-    border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+    padding: 1.5rem;
+    pointer-events: auto;
+    
 }
 
-.p-img{
-    width: 90%;
+.p:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  
 }
+
