@@ -5,27 +5,29 @@ export const Projectcards  = [
 
     {
         id: 1,
-        link:"www.w3schools.com/cssref/sel_hover.asp",
-        title: "test",
-        technology: "react js",
-        description: "practice website",
+        link:"https://www.facebook.com",
+        title: "kally couture",
+        description: "landing page for a fashion store",
+        technology: "html + css + javascript",
+       
     },
 
     {
         id: 2,
-        title: "test",
-        link:"www.w3schools.com/cssref/sel_hover.asp",
-        technology: "react js",
-        description: "practice website",
+        title: "apemoon",
+        link:"https://www.w3schools.com/cssref/sel_hover.asp",
+        description: "landing page for an nft website",
+        technology: "react + css",
+       
     },
-
 
     {
         id: 3,
-        title: "test",
+        title: "2oddz",
         link:"www.w3schools.com/cssref/sel_hover.asp",
-        technology: "react js",
-        description: "practice website",
+        description: "bet prediction site",
+        technology: "vue + tailwind css",
+       
     },
 
 ];

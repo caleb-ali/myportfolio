@@ -4,13 +4,16 @@ import "./Projectcard.css";
 import { Projectcards } from "./Data";
 
 
-const Projectcard = ({ img, link, title, technology, description }) => {
+const Projectcard = ({ link, title, description, technology }) => {
     return (
         <div className="p">
             <h2 className="card-title">{title}</h2>
             <p className="tech">{technology}</p>
-            <p className="description">{description}</p>
-            <button>live</button>
+            <p className="desc">{description}</p>
+            <a href={link} target="_blank" rel="nonreferrer">
+                <button>live</button>
+            </a>
+
         </div>
 
     )
