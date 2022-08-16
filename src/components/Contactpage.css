@@ -23,6 +23,18 @@
     margin-top: 100px;
 }
 
+.c-right button {
+    background-color: #E2DCC8;
+    color: #323232;
+    margin-left: 10px;
+}
+
+.c-right button:hover {
+    background-color: #125B50;
+    color: white;
+    transform: scale(1.15);
+}
+
 .c-title{
     font-size: 45px;
     width: 80%;
@@ -33,8 +45,11 @@
     align-items: center;
     font-size: 30px;
     padding-top: 10px;
-    margin-top: 100px;
-    
+    margin-top: 100px; 
+}
+
+.c-info-item a:hover{
+    transform: scale(1.15);
 }
 
 .c-info-item a{

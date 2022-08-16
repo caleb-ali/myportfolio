@@ -31,8 +31,16 @@ animation: 1s slide-right ;
  margin-left: 210px;
  margin-top: 20px;
  font-size: 15px;
+ padding: 10px;
+ background-color: #E2DCC8;
+ color: #323232;
 }
 
+.content button:hover {
+    background-color: #125B50;
+    color: white;
+    transform: scale(1.15);
+   }
 @keyframes slide-right {
     from {
         margin-left: -100%;
@@ -50,7 +58,7 @@ animation: 1s slide-right ;
 position: relative;
 left: 150px;
 font-size: 40px;
-color: #407164;
+color: #323232;
 
 }
 
@@ -58,8 +66,10 @@ color: #407164;
     position: relative;
 left: 60px;
 font-size: 40px;
-color: #407164;
+color: #323232;
 }
+
+
 
 
 @media screen and (max-width: 1040px) {

@@ -2,7 +2,6 @@
 
     width: 30%;
     height: 30vh;
-    
     overflow: hidden;
     padding: 2rem;
     padding-top: 70px;
@@ -11,6 +10,16 @@
     line-height: 45px;
     box-shadow: 0 0 20px 8px #d0d0d0;
     
+}
+
+.p button {
+    background-color: #E2DCC8;
+    color: #323232;
+}
+
+.p button:hover {
+    background-color: #125B50;
+    color: white;
 }
 
 .p:hover {
