@@ -11,7 +11,7 @@
     margin-top: 20px;
     float: left;
     margin-left: 40%;
-    font-size: 25px;
+    font-size: 20px;
     color: #125B50;
  
 }
@@ -19,6 +19,27 @@
 .footer-links {
     margin-top: 20px;
     float: right;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 40%;
+}
+
+@media screen and (max-width:480px) {
+
+}
+
+
+@media screen and (max-width:768px) and (min-width:481px) {
+
+}
+
+@media screen and (max-width:1024px) and (min-width:769px){
+        
+}
+
+@media screen and (max-width:1200px) and (min-width:1025px){
+        
+}
+
+@media screen and (min-width:1201px){
+        
 }

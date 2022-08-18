@@ -89,8 +89,25 @@ button{
     width: 100px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:480px) {
 
+}
+
+
+@media screen and (max-width:768px) and (min-width:481px) {
+
+}
+
+@media screen and (max-width:1024px) and (min-width:769px){
+        
+}
+
+@media screen and (max-width:1200px) and (min-width:1025px){
+        
+}
+
+@media screen and (min-width:1201px){
+        
 }
     
 

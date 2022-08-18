@@ -8,6 +8,7 @@
 
 .header h1{
     color: #323232;
+    font-size: 22px;
 }
 .nav-menu {
     display: flex;
@@ -18,13 +19,14 @@
 }
 
 .nav-menu li a {
-    font-size: 1.2rem;
+    font-size: 22px;
     font-weight: 500;
     color: #323232;
 }
 
 .nav-menu li a:hover {
     color: #125B50;
+  
 
 }
 
