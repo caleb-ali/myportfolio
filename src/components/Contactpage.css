@@ -1,23 +1,23 @@
 .c {
     height: 80vh;
     position: relative;
-} 
-
-
-
-.c-wrapper{
-    padding: 50px;
-    display: flex;
-    
 }
 
-.c-left{
+
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+
+}
+
+.c-left {
     flex: 1;
     margin-left: 120px;
     margin-top: 100px;
 }
 
-.c-right{
+.c-right {
     flex: 1;
     margin-right: 120px;
     margin-top: 100px;
@@ -35,34 +35,34 @@
     transform: scale(1.15);
 }
 
-.c-title{
+.c-title {
     font-size: 45px;
     width: 80%;
 }
 
-.c-info-item{
+.c-info-item {
     display: flex;
     align-items: center;
     font-size: 30px;
     padding-top: 10px;
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 
-.c-info-item a:hover{
+.c-info-item a:hover {
     transform: scale(1.15);
 }
 
-.c-info-item a{
+.c-info-item a {
     padding: 10px;
     cursor: pointer;
 }
 
-form{
+form {
     margin-top: 20px;
 }
 
-input{
-    width: 100% ;
+input {
+    width: 100%;
     height: 50px;
     border: none;
     border-bottom: 1px solid black;
@@ -71,44 +71,39 @@ input{
     padding-left: 10px;
 }
 
-textarea{
+textarea {
     width: 100%;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
 }
 
-button{
+button {
     border: none;
     padding: 10px;
     background-color: #407164;
-    color:#fffcf9 ;
+    color: #fffcf9;
     font-weight: 500;
     cursor: pointer;
     border-radius: 10px;
     width: 100px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 768px) {
+    .c-left {
+        margin: 0;
+    }
+
+    .c-right {
+        margin: 0;
+    }
 
 }
 
+@media screen and (max-width:768px) and (min-width:481px) {}
 
-@media screen and (max-width:768px) and (min-width:481px) {
+@media screen and (max-width:1024px) and (min-width:769px) {}
 
-}
+@media screen and (max-width:1200px) and (min-width:1025px) {}
 
-@media screen and (max-width:1024px) and (min-width:769px){
-        
-}
-
-@media screen and (max-width:1200px) and (min-width:1025px){
-        
-}
-
-@media screen and (min-width:1201px){
-        
-}
-    
-
-
+@media screen and (min-width:1201px) {}

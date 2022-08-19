@@ -15,7 +15,18 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 768px){
+
+    .pl-list {
+       
+        display: flex;
+        flex-direction: column;
+        width: 130%;
+      
+        
+       
+      
+    }
 
 }
 
