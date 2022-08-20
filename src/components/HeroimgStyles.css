@@ -78,7 +78,7 @@
 
 
 
-
+/* used em and rem because mobile responsiveness wanted to stress me*/
 @media screen and (max-width: 768px)  {
 
 
@@ -88,7 +88,7 @@
 
     .intro-img {
        width: 70%;
-       left: 4rem;
+       left: 4.5rem;
     }
 
     .content h1 {
@@ -96,7 +96,7 @@
         margin-bottom: 20px;
         width: 100%;
         font-size: 1.6em;
-        left: 1rem;
+        left: 1.8rem;
     }
     
     .content h2 {
@@ -108,7 +108,7 @@
     }
 
     .content button {
-        margin-left: 70px;
+        margin-left: 3rem;
     }
 
 }
